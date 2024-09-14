@@ -6,13 +6,15 @@
 Python相关、AI相关
 ### 学习内容和方法
 #### 参考资料
-- 主要：上课讲义+实践教程
+- 主要：
+  - [上课讲义](https://cloud.tsinghua.edu.cn/d/7b9e077b79a94f82b2d7/)
+  - [实践教程](https://book.ncrnalab.org/teaching)
 - 其他：
   - 参考书
   - 在线搜索
   - 在线课程
 #### 学习内容
-- Linux（week1-4）
+- Linux(week1-4)
 - R/Python(week5-16)
 #### 学习方法
 - In-class + After-class
