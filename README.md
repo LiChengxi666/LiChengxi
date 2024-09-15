@@ -98,7 +98,7 @@ Big data-driven science
 - 练习文件&视频[Teaching Materials](https://book.ncrnalab.org/teaching/appendix/appendix-iv.-teaching)
 - 更多资料[Others](https://book.ncrnalab.org/teaching/appendix/appendix1.keep-learning)
 ### 软件设置&安装（Setup）
-- 文本编辑（Text editor）
+#### 文本编辑（Text editor）
   - VS code
   - Vim
     > Linux系统自带，常用
@@ -106,4 +106,12 @@ Big data-driven science
     > 可以依靠键盘完成各种操作
     > 
     > 模式切换：
-    > <img src="20240915224726.jpg" width="251" height="230.5">
+    > 
+    > <img src="image.jpg" width="235" height="158">
+#### Setup Docker
+  - Docker：轻量级虚拟机
+    - image：创建虚拟机的模板
+    - container：虚拟机
+      > <img src="image.jpg" width="235" height="158">
+  - Docker安装和运行[install and use docker in windows](https://book.ncrnalab.org/teaching/getting-started/docker#id-2-install-and-use-docker-in-windows)
+     
