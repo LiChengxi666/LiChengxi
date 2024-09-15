@@ -33,4 +33,23 @@ Python相关、AI相关
 Science? Technology? Philosophy?
 ### Information(信息)
 **NGS(Next Generation Sequecing)**: 测序能力革命性的提升
-> 1(HGP)->4,000,000,000 per year
+> **1**(HGP)->**4,000,000,000** per year
+> 
+> **Big** and **HD** data
+> 
+> **Metagenomic**
+1. DNA-seq
+2. RNA-seq
+3. Epigenetics
+   - DNAase
+   - Methylation
+   - Histone modifications: ChIP-seq
+4. Interaction
+   - ChIP-seq(*Protein-DNA*)
+   - CLIP-seq(*Protein-RNA*)
+   - Grid-seq(*DNA-RNA*)
+### Analysis(分析)
+- Sequecing method + bioinformatics tool
+> Different RNA variations should match different sequencing methods and bioinformatics tools
+>
+> !["D:\20240915224726.jpg"]
