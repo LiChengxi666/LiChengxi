@@ -52,4 +52,4 @@ Science? Technology? Philosophy?
 - Sequecing method + bioinformatics tool
 > Different RNA variations should match different sequencing methods and bioinformatics tools
 >
-> !["D:\20240915224726.jpg"]
+> <img src="20240915224726.jpg" width="251" height="230.5">
