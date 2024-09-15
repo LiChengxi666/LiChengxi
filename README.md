@@ -53,3 +53,6 @@ Science? Technology? Philosophy?
 > Different RNA variations should match different sequencing methods and bioinformatics tools
 >
 > <img src="20240915224726.jpg" width="251" height="230.5">
+- Data interpretation
+> Cell types/Gene signatures
+### Modeling(建模)
