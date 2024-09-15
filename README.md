@@ -26,4 +26,11 @@ Python相关、AI相关
 - 加分题（学期末）
 ### 答疑时间
 课前（教师）课后（助教）
-
+## Introduction of Bioinformatics
+### 4 steps
+> Question->Information->Analysis->Modeling
+### Question(问题)
+Science? Technology? Philosophy?
+### Information(信息)
+**NGS(Next Generation Sequecing)**: 测序能力革命性的提升
+> 1(HGP)->4,000,000,000 per year
