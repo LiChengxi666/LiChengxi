@@ -56,3 +56,14 @@ Science? Technology? Philosophy?
 - Data interpretation
 > Cell types/Gene signatures
 ### Modeling(建模)
+#### Probabilistic Model
+- Machine learning
+  -Regression 
+  > Linear regression -> Logistic regression
+- Deep learning 
+  > Neural network model
+- ......
+  > <img src="20240915224726.jpg" width="340" height="200">
+
+#### Computational Algorithm
+
