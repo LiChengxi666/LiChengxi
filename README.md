@@ -112,6 +112,6 @@ Big data-driven science
   - Docker：轻量级虚拟机
     - image：创建虚拟机的模板
     - container：虚拟机
-      > <img src="image.jpg" width="235" height="158">
+      > <img src="image2.jpg" width="286" height="106">
   - Docker安装和运行[install and use docker in windows](https://book.ncrnalab.org/teaching/getting-started/docker#id-2-install-and-use-docker-in-windows)
      
