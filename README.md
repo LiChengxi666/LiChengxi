@@ -56,14 +56,27 @@ Science? Technology? Philosophy?
 - Data interpretation
 > Cell types/Gene signatures
 ### Modeling(建模)
-#### Probabilistic Model
+#### Probabilistic Model（模型）
 - Machine learning
-  -Regression 
+  -Regression (回归)
   > Linear regression -> Logistic regression
-- Deep learning 
+- Deep learning (深度学习)
   > Neural network model
 - ......
-  > <img src="20240915224726.jpg" width="340" height="200">
+  > <img src="微信图片_20240916005843.jpg" width="340" height="200">
 
-#### Computational Algorithm
-
+#### Computational Algorithm（算法）
+> 不同于通过数据进行预测的模型（model），算法（algorithm）是一套固定的计算（computational）方法，是定义明确的程序或指令。而模型则是基于学习算法进行构建和输出的，进行预测的程序。
+>
+> 算法举例：Number sorting(排序), Dynamic programming(动态规划), ...
+### Two Types of Bioinformatics Studies
+- **Data problem**
+  > 作图、数据存储、分析方法......
+- **Biology problem**
+  > 序列分析、结构预测......
+### The 4th Paradigm--第四研究范式
+Big data-driven science
+ - Big data, machine learning
+ - Patterns, anomalies
+ - Visualization
+## Getting Started
