@@ -80,3 +80,30 @@ Big data-driven science
  - Patterns, anomalies
  - Visualization
 ## Getting Started
+### 工作记录（Document）
+- GitHub
+  - 源代码托管平台
+  - 可以创建自己的仓库（Repositories），添加**README.md**
+  - 网址[https://github.com](https://github.com)
+- Markdown
+  - 通用标记语言，语法简洁
+  - Linux系统自带，可用于编写README.md文件
+  - md文件可以生成PDF、HTML等
+### 工作备份（Backup）
+- 云存储
+  > 清华云或其他商业云存储
+- 系统自带
+- GitHub
+### 实践教程（Tutorial）
+- 练习文件&视频[Teaching Materials](https://book.ncrnalab.org/teaching/appendix/appendix-iv.-teaching)
+- 更多资料[Others](https://book.ncrnalab.org/teaching/appendix/appendix1.keep-learning)
+### 软件设置&安装（Setup）
+- 文本编辑（Text editor）
+  - VS code
+  - Vim
+    > Linux系统自带，常用
+    > 
+    > 可以依靠键盘完成各种操作
+    > 
+    > 模式切换：
+    > <img src="20240915224726.jpg" width="251" height="230.5">
