@@ -29,6 +29,7 @@ Python相关、AI相关
 ## Introduction of Bioinformatics
 ### 4 steps
 > Question->Information->Analysis->Modeling
+> 
 ### Question(问题)
 Science? Technology? Philosophy?
 ### Information(信息)
