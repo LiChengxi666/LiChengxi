@@ -39,16 +39,16 @@ Science? Technology? Philosophy?
 > **Big** and **HD** data
 > 
 > **Metagenomic**
-1. DNA-seq
-2. RNA-seq
-3. Epigenetics
-   - DNAase
-   - Methylation
-   - Histone modifications: ChIP-seq
-4. Interaction
-   - ChIP-seq(*Protein-DNA*)
-   - CLIP-seq(*Protein-RNA*)
-   - Grid-seq(*DNA-RNA*)
+  1. DNA-seq
+  2. RNA-seq
+  3. Epigenetics
+     - DNAase
+     - Methylation
+     - Histone modifications: ChIP-seq
+  4. Interaction
+     - ChIP-seq(*Protein-DNA*)
+     - CLIP-seq(*Protein-RNA*)
+     - Grid-seq(*DNA-RNA*)
 ### Analysis(分析)
 - Sequecing method + bioinformatics tool
 > Different RNA variations should match different sequencing methods and bioinformatics tools
@@ -70,6 +70,7 @@ Science? Technology? Philosophy?
 > 不同于通过数据进行预测的模型（model），算法（algorithm）是一套固定的计算（computational）方法，是定义明确的程序或指令。而模型则是基于学习算法进行构建和输出的，进行预测的程序。
 >
 > 算法举例：Number sorting(排序), Dynamic programming(动态规划), ...
+>
 ### Two Types of Bioinformatics Studies
 - **Data problem**
   > 作图、数据存储、分析方法......
