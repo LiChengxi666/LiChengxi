@@ -66,8 +66,7 @@ Science? Technology? Philosophy?
   > <img src="微信图片_20240916005843.jpg" width="340" height="200">
 
 #### Computational Algorithm（算法）
-不同于通过数据进行预测的模型（model），算法（algorithm）是一套固定的计算（computational）方法，是**定义明确**的程序或指令。而模型则是基于学习算法进行构建和输出的，进行预测的程序。
-> 算法举例：Number sorting(排序), Dynamic programming(动态规划), ...
+不同于通过数据进行预测的模型（model），算法（algorithm）是一套固定的计算（computational）方法，是**定义明确**的程序或指令。而模型则是基于学习算法进行构建和输出的，进行预测的程序。如：Number sorting(排序), Dynamic programming(动态规划), ...
 ### Two Types of Bioinformatics Studies
 - **Data problem**
   > 作图、数据存储、分析方法......
