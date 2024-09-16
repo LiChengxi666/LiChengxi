@@ -91,7 +91,7 @@ Big data-driven science
   - md文件可以生成PDF、HTML等
 ### 工作备份（Backup）
 - 云存储
-  > 清华云或其他商业云存储
+  > **清华云**或其他商业云存储
 - 系统自带
 - GitHub
 ### 实践教程（Tutorial）
@@ -103,7 +103,7 @@ Big data-driven science
   - Vim
     > Linux系统自带，常用
     > 
-    > 可以依靠键盘完成各种操作
+    > 可以依靠**键盘**完成各种操作
     > 
     > 模式切换：
     > 
@@ -114,4 +114,10 @@ Big data-driven science
     - container：虚拟机
       > <img src="image2.jpg" width="286" height="106">
   - Docker安装和运行[install and use docker in windows](https://book.ncrnalab.org/teaching/getting-started/docker#id-2-install-and-use-docker-in-windows)
-     
+# 生物信息学学习计划
+## 总体目标：
+- **Linux**：熟悉Linux系统，确保可以使用Linux系统完成日常操作和一些相关软件使用
+- **R**：掌握用R进行数据处理和作图的方法
+- **Python**：进一步了解字符串处理、文件处理、机器学习等相关算法
+- **数据分析**：重点熟悉了解不同测序数据（特别是单细胞测序）的后续处理流程
+
