@@ -153,3 +153,61 @@ bwa index sacCer3.fa
 ```
 bwa mem sacCer3.fa THA2.fa > THA2-bwa.sam
 ```
+# PART II
+图为之前THA2-bwa.sam转换成的THA-bed：
+[https://cloud.tsinghua.edu.cn/f/e96a34f53e24496780aa/](https://cloud.tsinghua.edu.cn/f/e96a34f53e24496780aa/)
+# PART III
+## 1
+指令：
+```
+samtools flagstat COAD.ACTB.bam
+```
+结果：
+
+185650 + 0 in total (QC-passed reads + QC-failed reads)
+
+4923 + 0 secondary
+
+0 + 0 supplementary
+
+0 + 0 duplicates
+
+185650 + 0 mapped (100.00% : N/A)
+
+0 + 0 paired in sequencing
+
+0 + 0 read1
+
+0 + 0 read2
+
+0 + 0 properly paired (N/A : N/A)
+
+0 + 0 with itself and mate mapped
+
+0 + 0 singletons (N/A : N/A)
+
+0 + 0 with mate mapped to a different chr
+
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+可见没有paired in sequencing，说明可能是单端测序。
+## 2
+"Secondary alignment" 是指通过比对工具进行比对时，某个 read 可能与多个基因组位置匹配。如果一个 read 在匹配时被认为是次要比对（即不考虑的主要比对位置），则这个比对会被标记为 "secondary alignment"。
+## 3
+```
+#生成包含 gene 和 exon 的 bed 文件。
+awk '$3 == "gene" {print $1 "\t" $4-1 "\t" $5}' hg38.ACTB.gff > ACTB_gene.bed
+awk '$3 == "exon" {print $1 "\t" $4-1 "\t" $5}' hg38.ACTB.gff > ACTB_exon.bed
+
+#获取 intron 区域。
+bedtools subtract -a ACTB_gene.bed -b ACTB_exon.bed > ACTB_intron.bed
+
+#提取对应的 bam 信息并转换为 fastq 文件
+samtools view -b -L ACTB_intron.bed COAD.ACTB.bam > COAD.ACTB_intron.bam
+samtools fastq COAD.ACTB_intron.bam > COAD.ACTB_intron.fastq
+```
+## 4
+```
+bedtools genomecov -ibam COAD.ACTB.bam -bg -split > ACTB_coverage.bedgraph
+```
+
