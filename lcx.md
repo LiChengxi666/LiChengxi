@@ -210,4 +210,29 @@ samtools fastq COAD.ACTB_intron.bam > COAD.ACTB_intron.fastq
 ```
 bedtools genomecov -ibam COAD.ACTB.bam -bg -split > ACTB_coverage.bedgraph
 ```
+# PART IV
+## 1
+长度：3,099,750,718
+参考：[2023.12的ensemble数据](https://asia.ensembl.org/Homo_sapiens/Location/Genome)
+## 2
+根据	2024-08-18 16:26 ensemble更新的[	Homo_sapiens.GRCh38.113.gff3.gz](https://ftp.ensembl.org/pub/release-113/gff3/homo_sapiens/Homo_sapiens.GRCh38.113.gff3.gz)，ncRNA包括：
+``` 
+ 225633 lnc_RNA
+  42160 ncRNA_gene
+   1915 snRNA
+   1879 miRNA
+    942 snoRNA
+     55 rRNA
+     50 scRNA
+     22 tRNA
+```
+总计：272656
 
+几种ncRNA的作用：
+* **lncRNA（长链非编码RNA）**：调控基因表达，参与染色质重塑、转录调控和细胞分化等过程。功能较多。
+* **snRNA（小核RNA）**：参与RNA剪接过程，形成小核核糖核蛋白（snRNP），在前体mRNA的剪接中去除内含子，部分snRNA在剪接过程中起催化作用。
+* **miRNA（微小RNA）**：通过结合于其靶mRNA的3'非编码区，抑制基因表达，参与基因调控、发育、细胞增殖等多种生物过程。
+* **snoRNA（小核仁RNA）**：主要参与rRNA的修饰和剪接，帮助在核仁中导向mRNA和rRNA的加工和成熟。
+* **rRNA（核糖体RNA）**：构成核糖体的主要成分，参与mRNA翻译为蛋白质的过程，起到关键的催化作用。
+* **scRNA（小细胞RNA）**：参与细胞内的RNA加工和运输，有时也参与翻译过程，确保细胞内分子正确组装。
+* **tRNA（转运RNA）**：负责按照mRNA上的密码子将氨基酸转运到核糖体，参与翻译过程。
