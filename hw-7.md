@@ -28,3 +28,6 @@
 与TMM类似，通过将每个样品的Counts除以其几何平均值来计算比值
 然后将 Size Factor 定义为每个样本的该比值的中位数。
 接下来使用Size Factor对每个样本的原始计数矩阵（Raw Count Data）。
+## （2）
+E B C
+## （3）
