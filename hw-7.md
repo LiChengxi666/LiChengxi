@@ -29,5 +29,11 @@
 然后将 Size Factor 定义为每个样本的该比值的中位数。
 接下来使用Size Factor对每个样本的原始计数矩阵（Raw Count Data）。
 ## （2）
-E B C
+E D A
 ## （3）
+* **判断链特异性：参考之前的方法，对代码稍作更改即可。**
+```
+/usr/local/bin/infer_experiment.py -r GTF/Arabidopsis_thaliana.TAIR10.34.bed -i bam/Shape01.bam
+```
+结果显示"1++,1--,2+-,2-+"与"1+-,1-+,2++,2--"的比例几乎相同，有很大的把握认定这个数据是由非链特异性建库得到的。
+* ****
