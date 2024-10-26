@@ -6,7 +6,7 @@
 此方法不考虑基因长度的影响，因此更多适用于小RNA。
 ### b.RPKM (Reads Per Kilobase per Million Reads Mapped):
 
-计算方式：将每个基因的read count除以基因长度（千碱基），再除以样本的每百万mapped reads。
+将每个基因的read count除以基因长度（千碱基），再除以样本的每百万mapped reads。
 同时考虑了测序深度和基因长度，适用于样本中基因之间的基因计数比较；不适用于样本比较或差异表达分析。
 
 ### c.FPKM (Fragments Per Kilobase of Exon per Million mapped reads):
